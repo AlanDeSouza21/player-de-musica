@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    background: black;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    background: rgb(56, 55, 55);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 630px;
+    color: white;
+}
+
+.conteudoSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.nomeMusica{
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.nomeArtista{
+    margin-top: 5px;
+}
+
+.barra{
+    display: flex;
+    width: 280px;
+    height: 7px;
+    border-width: thin;
+    border-style: ridge;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0;
+}
+
+.ponto{
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.tempo{
+    display: flex;
+    width: 280px;
+    justify-content: space-around;
+}
+
+.botoes{
+    display: flex; 
+    width: 280px;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-play{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.fa-forward, .fa-backward{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-pause{
+    display: none;
+    font-size: 60px;
+    cursor: pointer;
+}

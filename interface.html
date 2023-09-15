@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <script src="https://kit.fontawesome.com/8afec02d15.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="design-player.css">
+</head>
+<body>
+    <section>
+        <div class="conteudoSection">
+
+                <img src="imagens/Untitled-1.jpg" width="280px"><br><br>
+            <div class="descricao">
+                <h1 class="nomeMusica"> Chad LB Quartet </h1>
+                <p class="nomeArtista"> Watermelon Man </p>
+            </div>
+            <div class="duracao">
+                <div class="barra">
+                    <progress value="0" max="1"></progress>
+                    <div class="ponto"></div>
+                </div>
+                <div class="tempo">
+                    <p class="inicio">0:00</p>
+                    <p class="final">3:47</p>
+                </div>    
+            </div>
+            <div class="botoes">
+                <i class="fa-solid fa-backward anterior"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-pause" id="pausar"></i>
+                <i class="fa-solid fa-forward posterior"></i>
+            </div>
+        </div>
+        </section>
+        <audio src="musicas\Driftin - Chad Lefkowitz-Brown Trio Sessions Episode 2 MarkovitzMacbride.mp3"></audio>
+        <script src="javascriptPlayer.js"></script>
+</body>
+</html>
